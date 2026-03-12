@@ -24,9 +24,16 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let customerName = "Alice";
+let purchasedItems = 5;
+let totalCost = 20;
 
-console.log(d);
+//Enhance the Program: Add at least two additional variables to improve the program’s functionality 
+let storeName = "Goodwill";
+let transactionDate = "March 12, 2026";
+let transactionSummary = customerName + " bought " + purchasedItems + 
+                         " items for $" + totalCost + 
+                         " at " + storeName + 
+                         " on " + transactionDate + ".";
+
+console.log(transactionSummary);
